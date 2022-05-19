@@ -5,6 +5,7 @@
     line-height: 163%;
     font-weight: 400;
     font-style: normal;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 }
 
@@ -14,7 +15,7 @@
  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 345px) {
   .place__paragraphs {
     font-size: 16px;
     margin: 0 16px 0;

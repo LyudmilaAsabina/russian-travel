@@ -2,11 +2,15 @@
    display: grid;
    gap: 48px 40px;
    grid-template-columns: 460px 1fr;
+   padding-bottom: 80px;
 }
+
+.place:last-of-type {
+    padding-bottom: 0;
+  }
 
 @media screen and (max-width: 1024px) {
 .place {
-    padding: 36px 0;
     gap: 48px 32px;
     grid-template-columns: 440px 1fr;
 }
@@ -14,16 +18,16 @@
 
 @media screen and (max-width: 768px) {
 .place {
-    padding: 36px 0;
     gap: 48px 28px;
     grid-template-columns: 340px 1fr;
+    padding-bottom: 73px;
 }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 610px) {
 .place {
-    padding: 25px 0;
-    gap: 32px;
+    padding-bottom: 50px;
+    gap: 16px;
     grid-template-columns: minmax(288px, 1fr);
 }
 }
