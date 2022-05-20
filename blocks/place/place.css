@@ -24,10 +24,13 @@
 }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 767px) {
 .place {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: 0;
     padding-bottom: 50px;
-    gap: 16px;
-    grid-template-columns: minmax(288px, 1fr);
+    max-width: 320px;
 }
 }

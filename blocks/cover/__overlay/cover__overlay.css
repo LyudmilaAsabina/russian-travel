@@ -1,5 +1,5 @@
 .cover__overlay {
-  min-height: 740px;
+  max-height: 740px;
   text-decoration: none;
   box-sizing: border-box;
   background: url(../../../images/cover-trains.jpg) no-repeat;
@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 20px;
+  
   z-index: 1;
 }
 
@@ -31,8 +31,4 @@
     opacity: .8;
   }
 
-  @media screen and (max-width: 1024px) {
-    .cover__overlay {
-        min-height: 640px; 
-    }
-}
+  
